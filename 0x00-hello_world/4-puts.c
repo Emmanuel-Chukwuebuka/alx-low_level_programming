@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-/**main - print
- *
- * always return zero 
+/**
+ *main - entry function
+ * Return: 0 after printinf function 
  */
 int main (void)
 {

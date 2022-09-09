@@ -1,7 +1,9 @@
 #include <stdio.h>
+
 /**
  *main - entry function
- * Return: 0 after printinf function 
+ *
+ * Return: should return 0 
  */
 int main(void)
 {

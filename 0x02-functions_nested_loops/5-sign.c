@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * print_sign - functons prints and check for a number sign
  * @n: integer used for the function

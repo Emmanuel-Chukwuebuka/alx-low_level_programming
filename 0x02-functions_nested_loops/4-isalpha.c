@@ -2,6 +2,8 @@
 /**
  * print_sign - functons prints and check for a number sign
  *
+ * @n: integer used for the function
+ *
  * Return: successful
  */
 int print_sign(int n)

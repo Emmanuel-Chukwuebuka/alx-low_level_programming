@@ -6,6 +6,7 @@
  * @b: num 2
  * Return: returns mul
  */
+
 int mul(int a, int b)
 {
 	return (a*b);

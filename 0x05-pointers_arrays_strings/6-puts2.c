@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.n"
+#include "main.h"
 
 /**
  * puts2 - prints characters

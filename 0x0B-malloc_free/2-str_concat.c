@@ -27,7 +27,7 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 
 	for (counter = 0; s1[counter]; counter++)
-		new_concat_str[concat_counter++] = s1[index];
+		new_concat_str[concat_counter++] = s1[counter];
 
 	for (counter = 0; s2[counter]; counter++)
 		new_concat_str[concat_counter++] = s2[counter];

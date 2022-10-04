@@ -21,15 +21,15 @@ char *str_concat(char *s1, char *s2)
 	for (counter = 0; s1[counter] || s2[counter]; counter++)
 		len++;
 
-	new_concat_str = mallo(sizeof(char) * len);
+	new_concat_str = malloc(sizeof(char) * len);
 
 	if (new_concat_str == NULL)
 		return (NULL);
 
 	for (counter = 0; s1[counter]; counter++)
-		new-concat_str[concat_counter++] = s1[index];
+		new_concat_str[concat_counter++] = s1[index];
 
-	for (counter = 0; s2[conter]; counter++)
+	for (counter = 0; s2[counter]; counter++)
 		new_concat_str[concat_counter++] = s2[counter];
 
 	return (new_concat_str);

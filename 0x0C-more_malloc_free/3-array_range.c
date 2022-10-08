@@ -2,16 +2,16 @@
 #include <stdlib.h>
 
 /**
- * array_range - to create an array of int.
+ * array_range - creates an array of integers.
  * @min: first integer
- * @max: last or max int.
- * Return: point to the new memory
+ * @max: last integer
+ *
+ * Return: pointer to newly allocated memory
  */
-
 int *array_range(int min, int max)
 {
 	int i, l;
-	int @a;
+	int *a;
 
 	if (min > max)
 		return (NULL);
@@ -19,7 +19,7 @@ int *array_range(int min, int max)
 	a = malloc(sizeof(int) * l);
 	if (a == NULL)
 		return (NULL);
-	for (i = 0; i < l; i++)
+	for (i = 0; i < l; i++, min++)
 	{
 		a[i] = min;
 	}

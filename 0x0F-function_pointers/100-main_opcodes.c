@@ -15,7 +15,7 @@ void print_opcodes(char *a, int n)
 	for (k = 0; k < n; k++)
 	{
 		printf("%.2hhx", a[k]);
-		if (i < n - 1)
+		if (k < n - 1)
 			printf(" ");
 	}
 	printf("\n");
@@ -23,7 +23,7 @@ void print_opcodes(char *a, int n)
 
 /**
  * main - prints the opcodes of its own main function
- * @argc: the number of arguments passed to the function used
+ * @argc: the number of arguments passed to the function.
  * @argv: array of pointers to the parameters or arguments
  * Return: always O
  */

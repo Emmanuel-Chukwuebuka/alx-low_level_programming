@@ -4,19 +4,18 @@
 /**
  * print_list - prints all the elements of the list
  * @h: points to the start of the list
- *
  * Return: number of nodes in the list
  */
 size_t print_list(const list_t *h)
 {
-	const list_t *temporal;
+	const list_t *tmp;
 	unsigned int i;
 
-	temporal = h;
-	for (i = 0; temporal; i++)
+	tmp = h;
+	for (i = 0; tmp; i++)
 	{
-		printf("[%u] %s\n", temporal->len, temporal->str);
-		temporal = temporal->next;
+		printf("[%u] %s\n", tmp->len, tmp->str);
+		tmp = tmp->next;
 	}
 	return (i);
 }

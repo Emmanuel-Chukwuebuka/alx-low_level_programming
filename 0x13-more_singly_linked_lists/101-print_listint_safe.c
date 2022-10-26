@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * _r - reallocates memory for an array of pointers to the nodes in a linked list
+ * _r - reallocates memory for an array of pointers t *o the nodes in a linked list
  * @list: the old list to append
- * @size: the size of the new list (always one more than the old list)
+ * @size: the size of the new list (always one more t *han the old list)
  * @new: the new node to add to the list
  *
  * Return: the pointer to the new list
@@ -29,7 +29,7 @@ const listint_t **_r(const listint_t **list, size_t size, const listint_t *new)
 }
 
 /**
- * print_listint_safe - prints a listint_t linked list.
+ * print_listint_safe - prints a listint_t linked lis
  * @head: the pointer to the start of the list
  *
  * Return: the number of nodes in the list

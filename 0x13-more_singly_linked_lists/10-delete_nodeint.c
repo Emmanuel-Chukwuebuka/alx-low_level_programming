@@ -3,7 +3,7 @@
 
 /**
  * delete_nodeint_at_index - to delete the node at index index of a listint_t linked list.
- * @head: the double pointer to the first node in the list
+ * @head: the double pointer to the first node in the *list
  * @index: the index of the node to delete
  *
  * Return: the pointer to the indexed node
